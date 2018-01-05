@@ -143,18 +143,24 @@ header {
 }
 
 #donate a:link,
-#donate a:visited
-{
-  background-color: #e74c3c;
-  font-weight: 300;
-  padding: 0 5px;
-  border-radius: 5px;
+#donate a:visited {
+  border-bottom: 3px solid #e74c3c;
 }
 
 #donate a:hover,
 #donate a:active {
-  border-color: #fff;
+  border-bottom: 3px solid #fff;
 }
 
 
+/*---------------------------------------------*/
+/*MIDDLE IMAGE*/
+/*---------------------------------------------*/
 
+/*
+.middle-image {
+  background-image: url(img/Dismantle%20Change%20Build.jpg);
+  background-size: cover;
+  height: 145vh
+}
+*/
