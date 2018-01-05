@@ -41,9 +41,37 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 3px;
+  margin-bottom: 20px;
 }
 
 h3 {
   font-weight: 100;
   letter-spacing: 1px;
+}
+
+.hero-text-box h3 {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+.btn {
+  margin-top: 
+  display: inline-block;
+  padding: 10px 30px;
+  font-weight: 100;
+  text-decoration: none;
+  border-radius: 100px;
+}
+
+.btn-full {
+  background-color: #e74c3c;
+  border: 1px solid #e74c3c;
+  color: #fff;
+}
+
+.btn-ghost {
+  border: 1px solid #e74c3c;
+  color: #e74c3c;
 }
