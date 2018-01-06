@@ -33,29 +33,33 @@ html {
 h1 {
   font-size: 150%;
   font-weight: 300;
-  text-transform: uppercase;
   letter-spacing: 1px;
   word-spacing: 3px;
+  text-align: center;
 }
 
 h3 {
   font-weight: 100;
+  font-size: 130%;
   letter-spacing: 1px;
 }
 
+#motto {
+  margin-bottom: 100px;
+}
 
 
 /*----------BUTTONS---------*/
 .btn:link,
 .btn:visited{
-  margin-top: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 11px;
+  margin-right: 11px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 10px 34px;
+  font-size: 90%;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 1px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -67,10 +71,22 @@ h3 {
   color: #fff;
 }
 
+/*
 .btn-ghost:link,
 .btn-ghost:visited {
+  border: 5px solid #236d9d;
+  color: #fff;
+  background-color: #236d9d
+}
+*/
+
+.btn-feature:link,
+.btn-feature:visited {
   border: 5px solid #e74c3c;
   color: #fff;
+  margin-top: 10px;
+  text-align: left;
+  padding: 6px;
 }
 
 
@@ -88,7 +104,7 @@ h3 {
 
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.47),rgba(95, 95, 95, 0.71)), url(img/yaoqi-lai-227961.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.47),rgba(98, 97, 97, 0.75)), url(img/yaoqi-lai-227961.jpg);
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -97,7 +113,7 @@ header {
 
 .hero-text-box {
   position: absolute;
-  top: 58%;
+  top: 64%;
   width: 1400px;
   left: 50%;
   transform: translate(-50%,-50%);
