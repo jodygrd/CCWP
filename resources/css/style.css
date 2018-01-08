@@ -9,7 +9,7 @@
 }
 
 html {
-  background-color: #2f2f2f;
+  background-color: #000;
   color: #fff;
   font-family: 'Lato', 'Arial', sans-serif;
   font-weight: 100;
@@ -40,11 +40,13 @@ section {
   width: 100%
 }
 
+p {
+  padding: 5px
+}
 
 /*--------HEADINGS---------*/
 
-h1,h2 {
-  font-size: 150%;
+h1,h2,h4 {
   font-weight: 300;
   letter-spacing: 1px;
   word-spacing: 3px;
@@ -52,18 +54,21 @@ h1,h2 {
   text-transform: uppercase;
 }
 
-h2 {
-  font-size: 125%;
-  padding: 10px;
+h1{
+  font-size: 150%;
 }
 
-h2:after {
+h2 {
+  font-size: 125%;
+}
+
+h2:after, h4:before {
   display: block;
   height: 2px;
   width: 100px;
   background-color: #e74c3c;
   content: " ";
-  margin: 25px auto 0 auto;
+  margin: 25px auto;
 }
 
 h3 {
@@ -71,6 +76,7 @@ h3 {
   font-size: 130%;
   letter-spacing: 1px;
 }
+
 
 #motto {
   margin-bottom: 100px;
@@ -211,9 +217,16 @@ header {
 
 
 .section-middle-image {
-  padding: 10px
-
+  text-align: center;
+  padding: 100px 80px 60px 80px;
 }
+
+.full-image {
+  margin: 0 auto;
+  width: 70%;
+  border-radius: 10px
+}
+
 
 
 /*---------------------------------------------*/
@@ -224,5 +237,20 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.97), rgba(39, 28, 14, 0.52)), url(img/luca-bravo-186960.jpg);
   background-size: cover;
   height: 100vh;
-  padding-top: 120px
+  padding-top: 100px
 }
+
+/*---------------------------------------------*/
+/*CONTACT*/
+/*---------------------------------------------*/
+
+.contact-info{
+  text-align: center;
+}
+
+.icon-giant {
+  font-size: 300%;
+  color: #e74c3c
+}
+
+
