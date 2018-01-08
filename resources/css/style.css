@@ -32,6 +32,15 @@ section {
   padding: 80px;
 }
 
+.icon-big {
+  margin-right: 2px;
+}
+
+.full-image {
+  width: 100%
+}
+
+
 /*--------HEADINGS---------*/
 
 h1,h2 {
@@ -40,10 +49,21 @@ h1,h2 {
   letter-spacing: 1px;
   word-spacing: 3px;
   text-align: center;
+  text-transform: uppercase;
 }
 
 h2 {
   font-size: 125%;
+  padding: 10px;
+}
+
+h2:after {
+  display: block;
+  height: 2px;
+  width: 100px;
+  background-color: #e74c3c;
+  content: " ";
+  margin: 25px auto 0 auto;
 }
 
 h3 {
@@ -57,10 +77,12 @@ h3 {
 }
 
 .long-copy {
-  font-size: 115%;
   font-weight: 300;
-  padding: 0 10px;
   line-height: 140%;
+  text-align: justify;
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 15px;
 }
 
 /*----------BUTTONS---------*/
@@ -73,7 +95,7 @@ h3 {
   font-size: 90%;
   font-weight: 300;
   text-decoration: none;
-  border-radius: 1px;
+  border-radius: 3px;
   transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
@@ -96,7 +118,7 @@ h3 {
 
 .btn-feature:link,
 .btn-feature:visited {
-  border: 5px solid #e74c3c;
+  border: 2px solid #e74c3c;
   color: #fff;
   margin-top: 10px;
   text-align: left;
@@ -187,20 +209,20 @@ header {
 /*MIDDLE IMAGE*/
 /*---------------------------------------------*/
 
-/*
+
 .section-middle-image {
-  background-image: url(img/Dismantle%20Change%20Build.jpg);
-  background-size: cover;
-  height: 145vh
+  padding: 0px
+
 }
-*/
+
 
 /*---------------------------------------------*/
 /*MISSION SECTION*/
 /*---------------------------------------------*/
 
 .section-mission {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.76), rgba(39, 39, 39, 0.51)), url(img/luca-bravo-186960.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.97), rgba(39, 28, 14, 0.52)), url(img/luca-bravo-186960.jpg);
   background-size: cover;
   height: 100vh;
+  padding-top: 120px
 }
