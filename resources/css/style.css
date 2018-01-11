@@ -255,6 +255,9 @@ h3 {
 /*---------------------------------------------*/
 /*TFI ARCHIVE*/
 /*---------------------------------------------*/
+.section-the-fire-inside {
+
+}
 
 .tfi-archive {
   list-style: none;
@@ -269,11 +272,21 @@ h3 {
 
 .issue-preview {
   width: 100%;
-  margin: 2px;
+  margin: 0;
+  overflow: hidden;
 }
 
 .issue-preview img {
+  opacity: 0.7;
   width: 100%;
   height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s, opacity 0.5s
 }
+
+.issue-preview img:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
 
