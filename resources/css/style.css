@@ -127,7 +127,6 @@ h3 {
   border: 2px solid #e74c3c;
   color: #fff;
   margin-top: 10px;
-  text-align: left;
   padding: 6px;
 }
 
@@ -145,7 +144,7 @@ h3 {
 /*---------------------------------------------*/
 
 
-header {
+.header-main {
   background-image: linear-gradient(rgba(0, 0, 0, 0.47),rgba(98, 97, 97, 0.75)), url(img/yaoqi-lai-227961.jpg);
   background-size: cover;
   background-position: center;
@@ -253,4 +252,28 @@ header {
   color: #e74c3c
 }
 
+/*---------------------------------------------*/
+/*TFI ARCHIVE*/
+/*---------------------------------------------*/
+
+.tfi-archive {
+  list-style: none;
+  width: 100%
+}
+
+.tfi-archive li {
+  display: block;
+  float: left;
+  width: 25%
+}
+
+.issue-preview {
+  width: 100%;
+  margin: 2px;
+}
+
+.issue-preview img {
+  width: 100%;
+  height: auto;
+}
 
