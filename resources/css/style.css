@@ -295,13 +295,11 @@ h3 {
 /*OUR MISSION EXPANDED*/
 /*---------------------------------------------*/
 
-.mission-box {
-  margin-top: 10px;
-}
 
 .mission-box:first-child {
   text-align: right;
   padding-right: 3%;
+  margin-top: 10%
 }
 
 .mission-box:last-child {
@@ -320,11 +318,19 @@ h3 {
 .mission-bullet div {
   color: #e74c3c;
   border: 2px solid #e74c3c;
-  display: inline-block;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   text-align: center;
+  padding: 5px;
+  float: left;
+  font-size: 150%;
+  margin-right: 25px;
+  margin-bottom: 3px;
+}
+
+.mission-bullet:last-of-type{
+  margin-bottom: 0;
 }
 
 
