@@ -17,6 +17,16 @@ html {
   text-rendering: optimizeLegibility;
 }
 
+/*-- Apply to parent element of floated elements to clear Float --*/
+.clearfix {zoom: 1}
+.clearfix:after {
+  content: '.';
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
 
 /*---------------------------------------------*/
 /*REUSEABLE COMPONENTS*/
@@ -325,14 +335,12 @@ h3 {
   padding: 5px;
   float: left;
   font-size: 150%;
-  margin-right: 25px;
-  margin-bottom: 3px;
+  margin-right: 20px
 }
 
 .mission-bullet:last-of-type{
   margin-bottom: 0;
 }
-
 
 
 
