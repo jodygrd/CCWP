@@ -247,6 +247,7 @@ h3 {
 /*---------------------------------------------*/
 
 
+/*
 .section-middle-image {
   text-align: center;
   padding: 100px 80px 60px 80px;
@@ -257,8 +258,34 @@ h3 {
   width: 70%;
   border-radius: 10px
 }
+*/
 
 
+.section-middle-image {
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img/Dismantle%20Change%20Build.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+blockquote {
+  margin: 100px 200px;
+  position: relative;
+}
+
+blockquote:before{
+  content: "\201C";
+  font-size: 500%;
+  display: block;
+  position: absolute;
+  top: -400px;
+  left: 0;
+  
+
+}
+
+cite {
+  display: block;
+}
 
 /*---------------------------------------------*/
 /*MISSION SECTION*/
