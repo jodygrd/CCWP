@@ -405,6 +405,19 @@ cite {
 /*OUR PROGRAMS*/
 /*---------------------------------------------*/
 
+.section-get-involved {
+  background-color: #1a1a1a;
+}
+
+.involved-box {
+  color: black;
+  font-weight: 300;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%
+}
+
 .action {
   
 }
