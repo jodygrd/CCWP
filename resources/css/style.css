@@ -290,6 +290,7 @@ cite {
 .section-mission {
   background-image: linear-gradient(rgba(0, 0, 0, 0.97), rgba(39, 28, 14, 0.52)), url(img/luca-bravo-186960.jpg);
   background-size: cover;
+  background-attachment: fixed;
   height: 100vh;
   padding-top: 100px
 }
@@ -413,13 +414,24 @@ cite {
   background-color: #fff;
   border-radius: 5px;
   width: 90%;
-  margin-left: 5%
+  margin-left: 5%;
+  box-shadow: 0 2px 2px #ebebeb
 }
 
 .involved-box div {
   padding: 15px;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 2px solid #e3e3e3;
   text-align: center;
+}
+
+.involved-box div:first-child {
+  background-color: #fcfcfc;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.involved-box div:last-child {
+  border-bottom: none;
 }
 
 .action {
