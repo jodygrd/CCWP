@@ -163,7 +163,7 @@
         <form method="post" action="#" class="contact-form">
           <div class="row">
             <div class="col span-1-of-3">
-              <label>Name</label>
+              <label for="name">Name</label>
             </div>
             <div class="col span-2-of-3">
               <input type="text" name="name" id="name" placeholder="Your Name" required>
@@ -171,7 +171,7 @@
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label>Email</label>
+              <label for="email">Email</label>
             </div>
             <div class="col span-2-of-3">
               <input type="email" name="email" id="email" placeholder="you@example.com" required>
@@ -179,16 +179,44 @@
           </div>
           <div class="row">
             <div class="col span-1-of-3">
-              <label>What are you interested in?</label>
+              <label>Which program are you interested in?</label>
             </div>
             <div class="col span-2-of-3">
               <select name="interest" id="interest">
-                <option value="volunteer">Volunteering</option>
-                <option value="spitfire">Spitfire Speakers</option>
-                <option value="spitfire">Firestorm International</option>
+                <option value="volunteer" selected>Volunteering</option>
+                <option value="spitfire">Spitfire Speakers Bureau</option>
+                <option value="firestorm">Firestorm International</option>
+                <option value="survived-and-punished">Survived and Punished</option>
               </select>
             </div>
           </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>Subscribe to The Fire Inside?</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="checkbox" name="news" id="news" checked> Yes, please!
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label for="message">Message: </label>
+            </div>
+            <div class="col span-2-of-3">
+              <textarea name="message" id="message"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col span-1-of-3">
+              <label>&nbsp;</label>
+            </div>
+            <div class="col span-2-of-3">
+              <input type="submit" value="Send!">
+            </div>
+          </div>
+          
+          
+          
         </form>
       </div>
       
