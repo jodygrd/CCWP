@@ -125,7 +125,8 @@ h3 {
 
 /*----------BUTTONS---------*/
 .btn:link,
-.btn:visited{
+.btn:visited,
+input[type=submit]{
   margin-left: 11px;
   margin-right: 11px;
   display: inline-block;
@@ -139,7 +140,8 @@ h3 {
 
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit]{
   background-color: #e74c3c;
   border: 5px solid #e74c3c;
   color: #fff;
@@ -162,10 +164,15 @@ h3 {
 
 
 .btn:hover,
-.btn:active {
+.btn:active,
+input[type=submit]:hover {
   background-color: #e3301e;
   color: #fff;
   border-color: #e3301e
+}
+
+input[type=submit] {
+  margin-left: 0
 }
 
 
@@ -401,7 +408,7 @@ cite {
 
 
 /*---------------------------------------------*/
-/*OUR PROGRAMS*/
+/*GET INVOLVED*/
 /*---------------------------------------------*/
 
 .section-get-involved {
@@ -453,3 +460,35 @@ cite {
 li i {
   margin-right: 5px;
 }
+
+
+
+/*---------------------------------------------*/
+/*GET INVOLVED*/
+/*---------------------------------------------*/
+
+.contact-form {
+  width: 60%;
+  margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+  width: 100%;
+  padding: 7px;
+  border-radius: 3px; 
+  border: 1px solid #ccc;
+}
+
+
+textarea {
+  height: 100px;
+}
+
+input[type=checkbox]{
+  margin: 10px 5px 10px 0;
+}
+
+*:focus {outline:none}
