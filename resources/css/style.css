@@ -277,10 +277,8 @@ blockquote:before{
   font-size: 500%;
   display: block;
   position: absolute;
-  top: -400px;
+  top: -45px;
   left: 0;
-  
-
 }
 
 cite {
@@ -401,3 +399,8 @@ cite {
 .program-feature {
   margin-bottom: 5px;
 }
+
+
+/*---------------------------------------------*/
+/*OUR PROGRAMS*/
+/*---------------------------------------------*/
