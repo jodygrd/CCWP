@@ -145,14 +145,12 @@ h3 {
   color: #fff;
 }
 
-/*
 .btn-ghost:link,
 .btn-ghost:visited {
-  border: 5px solid #236d9d;
-  color: #fff;
-  background-color: #236d9d
+  border: 5px solid #e74c3c;
+  font-weight: 400;
+  background-color: transparent;
 }
-*/
 
 .btn-feature:link,
 .btn-feature:visited {
@@ -418,14 +416,28 @@ cite {
   margin-left: 5%
 }
 
+.involved-box div {
+  padding: 15px;
+  border-bottom: 1px solid #e3e3e3;
+  text-align: center;
+}
+
 .action {
-  
+  font-size: 300%;
+  text-align: center;
 }
 
 .tagline {
+  font-size: 80%
   
 }
 
-.involved-box li {
-  list-style: none; 
+.involved-box ul {
+  list-style: none;
+  text-align: left;
+  line-height: 150%
+}
+
+li i {
+  margin-right: 5px;
 }
