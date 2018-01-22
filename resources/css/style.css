@@ -493,3 +493,41 @@ input[type=checkbox]{
 }
 
 *:focus {outline:none}
+
+
+/*---------------------------------------------*/
+/*FOOTER*/
+/*---------------------------------------------*/
+
+footer {
+  background-color: #272727;
+  padding: 40px;
+  text-align: center
+}
+
+.contact-info {
+  list-style: none;
+}
+
+.contact-info li {
+  font-size: 90%;
+  display: inline-block;
+  margin: 10px;
+  float: left;
+}
+
+.contact-info li:first-child {
+  margin-top: 
+}
+
+footer i {
+  margin-top: 20px;
+}
+
+
+.attribution {
+  text-align: center;
+  font-size: 60%;
+  margin-top: 20px;
+  color: #c1c1c1
+}
